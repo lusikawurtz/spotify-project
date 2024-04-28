@@ -1,8 +1,6 @@
-// Styles
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 
-// Vuetify
 import { createVuetify } from 'vuetify'
 
 export default createVuetify({
@@ -12,5 +10,9 @@ export default createVuetify({
       variant: 'flat',
       rounded: 'xs'
     },
+  },
+
+  theme: {
+    defaultTheme: 'dark'
   },
 })
