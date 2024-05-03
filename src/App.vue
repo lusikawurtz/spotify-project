@@ -1,26 +1,21 @@
 <template>
   <v-app>
+    <app-header>
+    </app-header>
     <v-main>
-      <LoginPage/>
-      <MainPage/>
+      <RouterView />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import LoginPage from './components/LoginPage.vue'
-import MainPage from './components/MainPage.vue'
+import AppHeader from './components/AppHeader.vue'
 
 export default {
   name: 'App',
 
   components: {
-    LoginPage,
-    MainPage
+    AppHeader,
   },
-
-  data: () => ({
-    //
-  }),
 }
 </script>

@@ -1,10 +1,9 @@
-
 <template>
-  <v-app>
-    <div class="login-page">
+    <div class="login">
       <v-toolbar app dark color="black" height="120">
         <v-toolbar-title class="text-h2 text-center"> Spotify Shuffler </v-toolbar-title>
       </v-toolbar>
+      
       <v-container>
         <v-col>
           <v-card border="opacity-10" class="mx-auto" max-width="1000" min-height="200" rounded="xl">
@@ -26,5 +25,4 @@
         </v-col>
       </v-container>
     </div>
-  </v-app>
 </template>
