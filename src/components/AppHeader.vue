@@ -27,15 +27,15 @@ export default {
             menubar: [
                 {
                     title: 'Home',
-                    route: '/main',
+                    route: 'main',
                 },
                 {
                     title: 'Contacts',
-                    route: '/contacts',
+                    route: 'contacts',
                 },
                 {
                     title: 'Log out',
-                    route: '/login',
+                    route: 'login',
                 },
             ]
         }

@@ -4,8 +4,9 @@ import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 
 import { createMemoryHistory, createRouter } from 'vue-router'
-import MainPage from './components/MainPage.vue'
-import LoginPage from './components/LoginPage.vue'
+import MainPage from './views/MainPage.vue'
+import LoginPage from './views/LoginPage.vue'
+import ContactsPage from './views/ContactsPage.vue'
 
 const routes = [
     {
@@ -18,6 +19,11 @@ const routes = [
         name: 'main',
         component: MainPage
     },
+    {
+      path: '/contacts',
+      name: 'contacts',
+      component: ContactsPage
+  },
 ]
 
 const router =
